@@ -16,8 +16,8 @@ main{
     width: 20vw;
     height: 100vh;
     flex-direction: column;
-    border-right: 1px solid #081554;
-    box-shadow: 8px 0 25px -6px #7887d4; 
+    border-right: 1px solid rgb(8, 21, 84);
+    box-shadow: 8px 0 25px -6px rgb(120, 135, 212); 
 }
 
 .conteudoPrincipal {
@@ -38,4 +38,50 @@ main{
     margin-left: 2vw;
     margin-top: 1vh;
     font-size: 3.5vh;
+}
+
+.menus-container{
+    height: 8vh;
+    width: 20vw;
+    font-size: 2vh;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.menus-container:hover{
+    background-color: rgb(8, 21, 84);
+    cursor: pointer;
+    color: white;
+}
+
+
+.iconMenus{
+    color: rgb(8, 21, 84);
+    margin-left: 2vw;
+    margin-right: 0.5vw;
+    transition: 0.4s;
+}
+
+.menus-container:hover .iconMenus i {
+    color: white;
+}
+
+.separador{
+    height: 0.2vh;
+    width: 19vw;
+    background-color:rgb(8, 21, 84);
+}
+
+.titulosMenus{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    width: 20vw;    
+    color: rgb(161, 161, 161);
 }
