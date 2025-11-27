@@ -14,8 +14,45 @@
 }
 
 .boxCadastrados{
-    width: 60vw;
-    height: 60vh;
+    width: 65vw;
+    height: 65vh;
     border: 1px solid rgb(178, 178, 178);
     border-radius: 20px;
+    box-shadow: 2px 6px 8px rgba(8, 21, 84, 0.20), 2px 6px 8px rgba(8, 21, 84, 0.20);
+}
+
+.boxCadastradosTop{
+    width: 65vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+
+.busca-container{
+    height: 10vh;
+    width: 32.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#inputBusca{
+    width: 25vw;
+    height: 5vh;
+    margin-left: 2vh;
+    border-radius: 5px;
+    border: 1px solid rgb(8, 21, 84);
+    padding-left: 1.5vh;
+    position: absolute;
+}
+
+#iconLupa{
+    color: rgb(8, 21, 84);
+    margin-left: 25vw;
+    position: absolute;
+}
+
+.filtra-container{
+    
 }
