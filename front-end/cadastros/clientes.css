@@ -1,0 +1,21 @@
+.tituloTop{
+    height: auto;
+    width: auto;
+    margin-top: 5vh;
+    margin-left: 15vh;
+}
+
+.conteudo-container{
+    height: 90vh;
+    width: 79.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxCadastrados{
+    width: 60vw;
+    height: 60vh;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 20px;
+}
