@@ -16,7 +16,7 @@ main{
     width: 20vw;
     height: 100vh;
     flex-direction: column;
-    border-right: 1px solid rgb(8, 21, 84);
+    border-right: 1px solid rgb(124, 135, 189);
     box-shadow: 8px 0 25px -6px rgb(120, 135, 212); 
 }
 
@@ -41,11 +41,9 @@ main{
 }
 
 .menus-container{
-    height: 8vh;
+    height: 6vh;
     width: 20vw;
     font-size: 2vh;
-    margin-top: 3px;
-    margin-bottom: 3px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -71,8 +69,8 @@ main{
 }
 
 .separador{
-    height: 0.2vh;
-    width: 19vw;
+    height: 0.1vh;
+    width: 18vw;
     background-color:rgb(8, 21, 84);
 }
 
@@ -81,7 +79,13 @@ main{
     align-items: center;
     justify-content: start;
     margin-left: 1.5vw;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
+    margin-bottom: 0.5vh;
     width: 20vw;    
     color: rgb(161, 161, 161);
+}
+
+.barraLateral a {
+    color: inherit;
+    text-decoration: none; 
 }

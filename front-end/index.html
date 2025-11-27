@@ -1,53 +1,96 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
-    <title>Agendamentos de Serviços</title>
-</head>
-<body>
-    <main>
-        <div class="barraLateral">
-            <i class="fa-regular fa-calendar" id="iconMaster" style="color: #081554;">
-                <h2 style="font-size: 2vh; margin-left: 0.5vw;">Agenda do Nicolas</h2>
-            </i>
-            <div class="menus-container" style="cursor: auto;">
-                <p style="cursor: pointer;"><u>Entrar</u></p>
-            </div>
-            <div class="separador">
-            </div>
-            <h4 class="titulosMenus">AGENDA</h4>
-            <div class="menus-container">
-                <div class="iconMenus">
-                    <i class="fa-solid fa-calendar-day"></i>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./index.css">
+        <title>Agendamentos de Serviços</title>
+    </head>
+    <body>
+        <main>
+            <div class="barraLateral">
+                <a href="" style="text-decoration: none;">
+                    <i class="fa-regular fa-calendar" id="iconMaster" style="color: #081554; margin-bottom: 1.5vh;">
+                        <h2 style="font-size: 2vh; margin-left: 0.5vw;">Agenda do Nicolas</h2>
+                    </i>
+                </a>
+                <a href="./login.html" style="text-decoration: none;">
+                    <div class="menus-container">
+                        <div class="iconMenus">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <p>Entrar</p>
+                    </div>
+                </a>
+                <div class="separador">
                 </div>
-                <p>Agenda diária</p> 
+                <div class="menus-container" style="margin-bottom: 1.5vh; margin-top: 1.5vh;">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-tachograph-digital"></i>
+                    </div>
+                    <p>Dashboard</p> 
+                </div>
+                <h4 class="titulosMenus">AGENDA</h4>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-calendar-day"></i>
+                    </div>
+                    <p>Agenda diária</p> 
+                </div>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-calendar-week"></i>
+                    </div>
+                    <p>Agenda semanal</p>
+                </div>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <p>Agenda mensal</p>
+                </div>
+                <h4 class="titulosMenus">CADASTROS</h4>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <p>Clientes</p> 
+                </div>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-hammer"></i>
+                    </div>
+                    <p>Serviços</p>
+                </div>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <p>Profissionais</p>
+                </div> 
+                <h4 class="titulosMenus">RELATÓRIOS</h4>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <p>Histórico de agendamentos</p> 
+                </div>
+                <div class="separador" style="margin-top: 12vh; margin-bottom: 2vh;"></div>
+                <div class="menus-container">
+                    <div class="iconMenus">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </div>
+                    <p>Sair</p> 
+                </div>
             </div>
-            <div class="menus-container">
-                <p>Criar tarefa</p>
+            <div class="conteudoPrincipal">
+                
             </div>
-            <div class="menus-container">
-                <p>Atualizar tarefa</p>
-            </div>
-            <div class="menus-container">
-                <p>Apagar tarefa</p>
-            </div>
-            <div class="menus-container" style="margin-bottom: 0%;">
-                <p>Configurações</p>
-            </div>
-            <div class="menus-container">
-                <p>Sair</p>
-            </div>
-        </div>
-        <div class="conteudoPrincipal">
-            
-        </div>
-    </main>
-    
-</body>
-</html>
+        </main>
+        
+    </body>
+    </html>
