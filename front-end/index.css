@@ -89,3 +89,11 @@ main{
     color: inherit;
     text-decoration: none; 
 }
+
+#sair{
+    transition: 0.4s;
+}
+
+#sair:hover{
+    background-color: red;
+}
