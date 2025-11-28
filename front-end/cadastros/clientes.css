@@ -51,8 +51,72 @@
     color: rgb(8, 21, 84);
     margin-left: 25vw;
     position: absolute;
+    cursor: pointer;
 }
 
 .filtra-container{
-    
+    height: 10vh;
+    width: 22vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
+
+#iconFiltro{
+    color: rgb(8, 21, 84); 
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#iconFiltro:hover{
+    color: rgb(95, 106, 160);
+}
+
+.botaoCadastro-container{
+    height: 10vh;
+    width: 10.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botaoCadastro{
+    height: 6vh;
+    width: 7vw;
+    background-color: rgb(8, 21, 84);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#botaoCadastro:hover{
+    background-color: rgb(95, 106, 160);
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  tr:hover {background-color: #ddd;}
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(8, 21, 84);
+    color: white;
+  }
